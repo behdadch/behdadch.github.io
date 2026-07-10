@@ -187,9 +187,9 @@ const ICONS = {
 /* ================= TYPEWRITER ================= */
 
 const PHRASES = [
-  "Generative AI for autonomous driving.",
-  "Research shipped into production.",
-  "Reinforcement learning at scale."
+  "Generative AI for Autonomous Driving.",
+  "Research Shipped Into Production.",
+  "Reinforcement Learning at Scale."
 ];
 
 function typewriter() {
