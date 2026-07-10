@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Behdad Chalaki — AI/ML Engineer</title>
+<meta name="description" content="Behdad Chalaki — Senior Machine Learning Engineer at Torc Robotics. Generative AI, reinforcement learning, and behavior simulation for autonomous driving.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>.reveal{opacity:1!important;transform:none!important;}.hero-title .cursor{display:none;}</style></noscript>
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">BC<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+      <a href="work.html" class="nav-cv-link">Full CV</a>
+    </div>
+  </div>
+</nav>
+
+<header id="top" class="hero">
+  <svg class="hero-trajectory" viewBox="0 0 800 500" preserveAspectRatio="none" aria-hidden="true">
+    <path id="traj-path" d="M -20 420 C 150 440, 220 260, 380 240 C 520 224, 560 340, 720 120 C 780 50, 800 60, 830 20"
+      fill="none" stroke="#3D7CA8" stroke-width="1.5" opacity="0.55"/>
+    <circle id="traj-dot" r="4" fill="#E8A33D"/>
+  </svg>
+
+  <div class="hero-inner">
+    <p class="eyebrow">Senior ML Engineer · Torc Robotics</p>
+    <h1 class="hero-title">
+      <span id="typewriter">Generative AI for autonomous driving.</span><span class="cursor">|</span>
+    </h1>
+    <p class="hero-sub">Generative AI, reinforcement learning, and behavior simulation for autonomous driving — turning research into production systems in a fast-moving industry environment, built on a Ph.D. in optimal control.</p>
+
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">8+</span><span class="stat-label">years in AI/autonomy</span></div>
+      <div class="stat"><span class="stat-num">30+</span><span class="stat-label">publications</span></div>
+      <div class="stat"><span class="stat-num">7</span><span class="stat-label">patents</span></div>
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">research fields</span></div>
+    </div>
+
+    <div class="hero-cta">
+      <a href="#publications" class="btn btn-primary">View publications</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="about" class="section reveal">
+    <p class="section-eyebrow">01 — About</p>
+    <h2 class="section-title">From control theory to generative AI</h2>
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <img src="assets/behdad.jpg" alt="Portrait of Behdad Chalaki" class="about-photo">
+      </div>
+      <div class="about-text-col">
+        <p class="about-text">
+          I'm a machine learning engineer working at the intersection of generative AI and autonomous driving. At Torc Robotics, I build generative models and reinforcement-learning systems for scalable, closed-loop behavior simulation — the kind that lets self-driving trucks train and get evaluated against realistic, diverse traffic before ever touching a real highway.
+        </p>
+        <p class="about-text">
+          What I care about most is closing the gap between research and what actually ships. In a fast-moving industry environment, that means taking ideas from papers and prototypes to production pipelines that a real engineering team can rely on — not just publishing a result, but making it fast, robust, and usable under real deadlines.
+        </p>
+        <p class="about-text">
+          Before that, I spent three years at Honda Research Institute working on interaction-aware motion planning, multi-robot coordination, and human-AI teaming, and earned a Ph.D. in Mechanical Engineering from the University of Delaware, where I developed decentralized control frameworks for connected and automated vehicles. That range — from optimal control theory to modern generative AI — is the throughline of my work: making autonomous systems that reason well about the other agents around them.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section reveal">
+    <p class="section-eyebrow">02 — Experience</p>
+    <h2 class="section-title">Where I've built this</h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <section id="research" class="section reveal">
+    <p class="section-eyebrow">03 — Research areas</p>
+    <h2 class="section-title">Fields I've worked across</h2>
+    <p class="section-sub">Research spans these areas — the publications below map onto each one.</p>
+    <div class="research-grid" id="research-grid"></div>
+  </section>
+
+  <section id="publications" class="section reveal">
+    <p class="section-eyebrow">04 — Publications</p>
+    <h2 class="section-title">Selected work</h2>
+    <p class="section-sub">Scroll for TL;DRs of representative papers across the fields above. Full list of publications, patents, and awards on the <a href="work.html">full CV page</a>.</p>
+    <div class="pub-scroll" id="pub-scroll"></div>
+  </section>
+
+  <section id="patents" class="section reveal">
+    <p class="section-eyebrow">05 — Patents</p>
+    <h2 class="section-title">Filed work</h2>
+    <div class="patent-list" id="patent-list"></div>
+  </section>
+
+  <section id="skills" class="section reveal">
+    <p class="section-eyebrow">06 — Skills</p>
+    <h2 class="section-title">Tools of the trade</h2>
+    <div class="skills-grid" id="skills-grid"></div>
+  </section>
+
+  <section id="contact" class="section reveal contact-section">
+    <p class="section-eyebrow">07 — Contact</p>
+    <h2 class="section-title">Let's talk</h2>
+    <p class="section-sub">Open to conversations about generative AI, autonomous systems, and research collaboration.</p>
+    <div class="contact-links">
+      <a href="mailto:behdadchalaki@gmail.com" class="contact-link"><span class="contact-label">Email</span>behdadchalaki@gmail.com</a>
+      <a href="https://www.linkedin.com/in/behdadchalaki" target="_blank" rel="noopener" class="contact-link"><span class="contact-label">LinkedIn</span>in/behdadchalaki</a>
+      <a href="https://github.com/behdadch" target="_blank" rel="noopener" class="contact-link"><span class="contact-label">GitHub</span>behdadch</a>
+      <a href="https://scholar.google.com/citations?hl=en&user=i3jzLtYAAAAJ" target="_blank" rel="noopener" class="contact-link"><span class="contact-label">Scholar</span>Google Scholar</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Behdad Chalaki — built from a resume, a CV, and too many LaTeX recompiles.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Behdad Chalaki — Full CV</title>
+<meta name="description" content="Full curriculum vitae — Behdad Chalaki. Complete employment history, publications, patents, and awards.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="cv.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">BC<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="index.html">&larr; Back to site</a>
+    </div>
+  </div>
+</nav>
+
+<header class="cv-header">
+  <p class="eyebrow">Full curriculum vitae</p>
+  <h1 class="cv-title">Behdad Chalaki</h1>
+  <p class="cv-sub">Every role, paper, patent, and award — the complete record behind the highlights on the main site.</p>
+</header>
+
+<main class="cv-main">
+
+  <section class="section reveal" id="cv-employment">
+    <p class="section-eyebrow">Employment</p>
+    <div id="cv-employment-list"></div>
+  </section>
+
+  <section class="section reveal" id="cv-education">
+    <p class="section-eyebrow">Education</p>
+    <div class="doc-job">
+      <div class="doc-job-head"><span class="doc-org">University of Delaware</span><span class="doc-date">2017 — 2022</span></div>
+      <p class="doc-role">Ph.D. in Mechanical Engineering (Control &amp; Robotics), GPA 3.8/4</p>
+      <p class="doc-detail">Dissertation: <em>A Real-time Motion Planning Framework for Connected and Automated Vehicles: From Theory to Scaled Experiments</em>. Received the Best Dissertation Award, Mechanical Engineering Department.</p>
+      <p class="doc-role" style="margin-top:10px;">M.S. in Mechanical Engineering</p>
+    </div>
+    <div class="doc-job">
+      <div class="doc-job-head"><span class="doc-org">University of Tehran</span><span class="doc-date">2012 — 2017</span></div>
+      <p class="doc-role">B.Sc. in Mechanical Engineering — graduated in the top 10% of class</p>
+    </div>
+  </section>
+
+  <section class="section reveal" id="cv-filter">
+    <p class="section-eyebrow">Publications</p>
+    <h2 class="section-title" style="margin-bottom:8px;">Filter by field</h2>
+    <p class="doc-detail" style="margin-bottom:20px;">Applies to both the journal and conference lists below.</p>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="control">Control (CDC, ACC, ECC, CCTA)</button>
+      <button class="filter-btn" data-filter="robotics">Robotics (ICRA, IROS, HRI)</button>
+      <button class="filter-btn" data-filter="ai">AI / ML (NeurIPS, ICML, EMNLP)</button>
+      <button class="filter-btn" data-filter="av">Autonomous vehicles (ITSC, IV, T-ITS)</button>
+    </div>
+  </section>
+
+  <section class="section reveal" id="cv-journals">
+    <p class="section-eyebrow">Journal articles</p>
+    <ol class="pub-list" id="journal-list"></ol>
+  </section>
+
+  <section class="section reveal" id="cv-conferences">
+    <p class="section-eyebrow">Conference publications</p>
+    <ol class="pub-list" id="conference-list"></ol>
+  </section>
+
+  <section class="section reveal" id="cv-patents">
+    <p class="section-eyebrow">Patents</p>
+    <ol class="pub-list" id="patents-full-list"></ol>
+  </section>
+
+  <section class="section reveal" id="cv-awards">
+    <p class="section-eyebrow">Honors &amp; awards</p>
+    <div class="doc-list" id="awards-list"></div>
+  </section>
+
+  <section class="section reveal" id="cv-service">
+    <p class="section-eyebrow">Professional service</p>
+    <div class="doc-two-col">
+      <div>
+        <h3 class="doc-subhead">Reviewer</h3>
+        <ul class="plain-list" id="reviewer-list"></ul>
+      </div>
+      <div>
+        <h3 class="doc-subhead">Doctoral dissertation committee</h3>
+        <p class="doc-detail">Committee member for Viet-Anh Le, Ph.D. in Mechanical Engineering, University of Delaware, 2025. Dissertation: <em>Mixed-Traffic Control and Coordination: Optimization and Learning-Based Approaches</em> (Advisor: A. A. Malikopoulos).</p>
+        <h3 class="doc-subhead" style="margin-top:24px;">Professional affiliation</h3>
+        <ul class="plain-list" id="affiliation-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal" id="cv-certifications">
+    <p class="section-eyebrow">Certifications</p>
+    <div class="doc-list" id="cert-list"></div>
+  </section>
+
+  <section class="section reveal" id="cv-skills">
+    <p class="section-eyebrow">Technical skills</p>
+    <div class="skills-grid" id="cv-skills-grid"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Behdad Chalaki — <a href="index.html">back to the main site</a></p>
+</footer>
+
+<script src="cv-data.js"></script>
+</body>
+</html>
